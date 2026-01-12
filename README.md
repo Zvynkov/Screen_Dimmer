@@ -6,4 +6,4 @@ U won't be happy with sudden blackout<br>
 Ctrl + Alt + ↑ (Up) = 5% lighter<br>
 Ctrl + Alt + ↓ (Down) = 5% darker<br>
 Ctrl + Alt + Shift + Esc = Exit<br>
---------------------------------------
+--------------------------------------<br>
