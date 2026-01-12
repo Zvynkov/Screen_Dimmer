@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ScreenDimmer.exe" version="1.0.0.0" publicKeyToken="a7b6e59a847512ed" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ScreenDimmer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ScreenDimmer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScreenDimmer.exe" size="10712">
+      <assemblyIdentity name="ScreenDimmer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nDOKSjSqQwcmJh/Duc06J6C9WGmi8dRlihDakVChFs8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ScreenDimmer.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-C8K6FNU\User" issuerKeyHash="359dfe1a1f046a04576a78c079593d3cab4740b8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9piqH07x5RxoiPaForHRmimzOSsPoieOTIYLsIc3DSc=</DigestValue></Reference></SignedInfo><SignatureValue>EkdKR1PUSYrPwKvkhl5aSbgDUKw2q7aN1LsxHgal+u5jRmCM8zFQ1H/SgRmNnlSpUKbZlU5phuPKajPt77tpxV0KRYRj8wF4EwhgCgXRGNHh8e3RAwuljMWu0k/40lWq8ybjEq/dIEixdOX0v/y4arOcHfPSxIyraD7fWkHXRbc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ybhAAsJ0yfDaa2dbYc0SI9lAgEedGzG4OMtwEq5x2tvFzqCk2xUsq/CrTRPK3BBp7oVlOKbJMHpd0Yyneo/SldzLTj9O/PGBb/PUfWyo1OhB0a4mk8lTRzT9yAO4w3FsHnB9fdaUyX4WpxOqaABmgWI3Ol7tO8T2ZJaXHf6EfZU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="270d3787b00b864c8e27a20f2b39b3299ad1b1a285f688681ce5f14e1faa98f6" Description="" Url=""><as:assemblyIdentity name="ScreenDimmer.exe" version="1.0.0.0" publicKeyToken="a7b6e59a847512ed" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-C8K6FNU\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EqkGloj33O5OCcS8frTPbcf4WDHiUcRQIX6cw6Q56DU=</DigestValue></Reference></SignedInfo><SignatureValue>HadAAcx26Zt5cLMFxrkBvm0KvKOEtSr8tWKvzrWBUiyCuxJdviccMD4+F5w6Lwe76u8RvswvJiw3DjUA/8DI4rE/JmXv9/YcPIA7f+baRTUyl7xYbvgSt5TT2sGBkii7/c1J0Q4mKheoHPFiRJHaDxjemj0cQ8nV3nvFH7seWP4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ybhAAsJ0yfDaa2dbYc0SI9lAgEedGzG4OMtwEq5x2tvFzqCk2xUsq/CrTRPK3BBp7oVlOKbJMHpd0Yyneo/SldzLTj9O/PGBb/PUfWyo1OhB0a4mk8lTRzT9yAO4w3FsHnB9fdaUyX4WpxOqaABmgWI3Ol7tO8T2ZJaXHf6EfZU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQWbaSXPvG5YdH8YC5BUt/IjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEMAOABLADYARgBOAFUAXABVAHMAZQByMB4XDTI2MDExMjE5MzI0NloXDTI3MDExMzAxMzI0NlowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBDADgASwA2AEYATgBVAFwAVQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAybhAAsJ0yfDaa2dbYc0SI9lAgEedGzG4OMtwEq5x2tvFzqCk2xUsq/CrTRPK3BBp7oVlOKbJMHpd0Yyneo/SldzLTj9O/PGBb/PUfWyo1OhB0a4mk8lTRzT9yAO4w3FsHnB9fdaUyX4WpxOqaABmgWI3Ol7tO8T2ZJaXHf6EfZUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA27kIxnZ9fSsiV9rdFoqPx+cSw43p6zJZZljrORFIImGKBLGVAESUNSlCeGlCA4+MHPRZ97BMRP9kuBn5Njw6lEvJQFJ+fjGwvs9POj8DQxfFC358nXPtC329DlLslErmeGYpIoLauB3wAdLDtq2l1VGryEltV2qCoBvwZC2WSPw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
